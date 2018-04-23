@@ -13,7 +13,7 @@ public class Percentage {
 		//Total marks for each section being 150
 		
 		max = 450;
-		Physics = 70;
+		Physics = 70;25
 		Chemistry = 80;
 		Maths = 90;
 		total = Physics + Chemistry + Maths;
