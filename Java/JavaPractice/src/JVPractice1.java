@@ -9,18 +9,38 @@ public class JVPractice1 {
 		b = 1;
 		c = 1;
 		
-		while (a <50) {
+		while (a <20) {
 			System.out.println("value of a: " + a);
 			a++;
-		}
-		for (b = 1; b < 50; b = b + 1) {
+			}
+		System.out.println("\n");
+		
+		while (a > 0 & a <20) {
+			System.out.println(" value of a: " + a);
+			a--;
+			}
+		System.out.println("\n");
+		
+		for (b = 1; b < 20; b = b + 1) {
 			System.out.println("value of b: " + b);
-		}
+			}
+		System.out.println("\n");
+		
+		for (b = 19; b > 0; b = b - 1) {
+			System.out.println("value of b: " + b);
+			}
+		System.out.println("\n");
 		
 		do {
 			System.out.println("value of c: " + c);
 			c++;
-		}while(c <20);
+			}while(c <20);
+		System.out.println("\n");
+		
+		do {
+			System.out.println("value of c: " + c);
+			c--;
+			}while(c >0);
 	}
 
 }
